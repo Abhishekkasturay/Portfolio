@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.342113fa.css",
+    "main.js": "/Portfolio/static/js/main.b406a007.js",
+    "static/media/Photo.png": "/Portfolio/static/media/Photo.e898016d68364fcf3c33.png",
+    "static/media/2560px-Node.js_logo.svg.png": "/Portfolio/static/media/2560px-Node.js_logo.svg.fc3bd1ec69d7a50e685a.png",
+    "static/media/express.png": "/Portfolio/static/media/express.304b141b6c72993d3aad.png",
+    "static/media/JavaScript-logo.png": "/Portfolio/static/media/JavaScript-logo.266bd9fb2663dcc057b4.png",
+    "index.html": "/Portfolio/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.342113fa.css",
+    "static/js/main.b406a007.js"
+  ]
+}
