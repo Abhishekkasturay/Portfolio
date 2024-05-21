@@ -9,7 +9,7 @@ const Headermain = () => {
         <div className="flex align-items-center justify-content-between p-4">
           <div>
             <Link className="text-3xl" to="/">
-              <button class="relative py-2 px-8 text-black text-base font-bold nded-full overflow-hidden bg-white rounded-full transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-blue-500 before:to-blue-300 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-full hover:before:left-0">
+              <button className="relative py-2 px-8 text-black text-base font-bold nded-full overflow-hidden bg-white rounded-full transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-blue-500 before:to-blue-300 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-full hover:before:left-0">
                 Portfolio
               </button>
             </Link>
@@ -18,14 +18,14 @@ const Headermain = () => {
             <ul className="flex flex-row justify-content-between align-item-center text-3xl">
               <li className="mr-6">
                 <Link to="/">
-                  <button class="h-14 cursor-pointer text-base font-bold transition-all bg-white text-black px-6 py-2 rounded-xl border-blue-200 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:brightness-90 active:translate-y-[2px] hover:shadow-xl hover:shadow-blue-400 shadow-blue-400 active:shadow-none">
+                  <button className="h-14 cursor-pointer text-base font-bold transition-all bg-white text-black px-6 py-2 rounded-xl border-blue-200 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:brightness-90 active:translate-y-[2px] hover:shadow-xl hover:shadow-blue-400 shadow-blue-400 active:shadow-none">
                     Home
                   </button>
                 </Link>
               </li>
               <li className="mr-6">
                 <Link to="/portfolio">
-                  <button class="h-14 cursor-pointer text-base font-bold transition-all bg-white text-black px-6 py-2 rounded-xl border-blue-200 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:brightness-90 active:translate-y-[2px] hover:shadow-xl hover:shadow-blue-400 shadow-blue-400 active:shadow-none">
+                  <button className="h-14 cursor-pointer text-base font-bold transition-all bg-white text-black px-6 py-2 rounded-xl border-blue-200 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:brightness-90 active:translate-y-[2px] hover:shadow-xl hover:shadow-blue-400 shadow-blue-400 active:shadow-none">
                     Portfolio
                   </button>
                 </Link>
@@ -39,7 +39,7 @@ const Headermain = () => {
               </li>
               <li className="mr-6">
                 <Link to="/contact">
-                  <button class="h-14 cursor-pointer text-base font-bold transition-all bg-white text-black px-6 py-2 rounded-xl border-blue-200 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:brightness-90 active:translate-y-[2px] hover:shadow-xl hover:shadow-blue-400 shadow-blue-400 active:shadow-none">
+                  <button className="h-14 cursor-pointer text-base font-bold transition-all bg-white text-black px-6 py-2 rounded-xl border-blue-200 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:brightness-90 active:translate-y-[2px] hover:shadow-xl hover:shadow-blue-400 shadow-blue-400 active:shadow-none">
                     Contact
                   </button>
                 </Link>
@@ -53,7 +53,7 @@ const Headermain = () => {
       </header>
       <footer className="flex justify-center items-center w-full bg-black fixed bottom-0 z-10">
         <div className="flex justify-center items-center text-white">
-          <button class="flex gap-3 cursor-pointer text-white font-semibold bg-gradient-to-r from-blue-800 to-blue-900 px-7 py-3 rounded-full border border-gray-600 hover:scale-105 duration-200 hover:text-gray-500 hover:border-gray-800 hover:from-blue-900 hover:to-blue-800">
+          <button className="flex gap-3 cursor-pointer text-white font-semibold bg-gradient-to-r from-blue-800 to-blue-900 px-7 py-3 rounded-full border border-gray-600 hover:scale-105 duration-200 hover:text-gray-500 hover:border-gray-800 hover:from-blue-900 hover:to-blue-800">
             <svg
               viewBox="0 0 18 10"
               height="18"
@@ -68,7 +68,7 @@ const Headermain = () => {
             </a>
           </button>
 
-          <button class="flex gap-3 cursor-pointer text-white font-semibold bg-gradient-to-r from-gray-800 to-black px-7 py-3 rounded-full border border-gray-600 hover:scale-105 duration-200 hover:text-gray-500 hover:border-gray-800 hover:from-black hover:to-gray-900">
+          <button className="flex gap-3 cursor-pointer text-white font-semibold bg-gradient-to-r from-gray-800 to-black px-7 py-3 rounded-full border border-gray-600 hover:scale-105 duration-200 hover:text-gray-500 hover:border-gray-800 hover:from-black hover:to-gray-900">
             <svg
               viewBox="0 0 24 24"
               height="24"
@@ -84,7 +84,7 @@ const Headermain = () => {
               github
             </a>
           </button>
-          <button class="flex gap-3 cursor-pointer text-white font-semibold bg-gradient-to-r from-blue-500 to-blue-800 px-7 py-3 rounded-full border border-gray-600 hover:scale-105 duration-200 hover:text-gray-500 hover:border-gray-800 hover:from-blue-800 hover:to-blue-600">
+          <button className="flex gap-3 cursor-pointer text-white font-semibold bg-gradient-to-r from-blue-500 to-blue-800 px-7 py-3 rounded-full border border-gray-600 hover:scale-105 duration-200 hover:text-gray-500 hover:border-gray-800 hover:from-blue-800 hover:to-blue-600">
             <svg
               viewBox="0 0 24 24"
               height="24"
